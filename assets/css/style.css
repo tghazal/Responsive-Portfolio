@@ -279,11 +279,7 @@ body {
   
     
    @media screen and (max-width: 768px) {
-    .container{
-      /* Box-model */
-      width: 100%;
-     
-    }
+ 
   .main-section{
     width:100%;
     max-width: 600px;
@@ -326,10 +322,12 @@ body {
    
 }
   @media screen and (max-width: 640px) {
+ 
     .main-section{
       width:100%;
       max-width: 500px;
       margin-top:70px;
+      margin-left: 60px;
   
     }
     
@@ -339,16 +337,18 @@ body {
       margin:0 auto;
       float: left;
       margin-bottom: 40px;
+      margin-left: 60px;
   
     }
     .auth-image{ 
-      width:400px;
+      width:440px;
       
     }
     #masthead
     {
       width:500px;
      margin :0 auto;
+     margin-left: 60px;
     }
     #logo{
       width:500px;
