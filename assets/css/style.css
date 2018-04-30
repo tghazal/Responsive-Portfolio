@@ -270,11 +270,96 @@ body {
   }
   
   .auth-image {
-    float: left;
-    width: 200px;
+    
+    width: 570px;
     height: auto;
     margin-top: 10px;
     margin-right: 25px;
   }
   
     
+   @media screen and (max-width: 768px) {
+    .container{
+      /* Box-model */
+      width: 100%;
+     
+    }
+  .main-section{
+    width:100%;
+    max-width: 600px;
+    margin-top:40px;
+
+  }
+  
+  .sidebar{
+    width:100%;
+    max-width: 600px;
+    margin:0 auto;
+    float: left;
+    margin-bottom: 40px;
+
+  }
+  .auth-image{ 
+    width:250px;
+    float:left;
+  }
+  #masthead
+    {
+      width:600px;
+     margin :0 auto;
+    }
+    #logo{
+      width:600px;
+    }
+    nav {
+      float:left;
+      margin-top: 25px;
+    }
+    nav a {
+     
+      padding-right: 70px;
+    }
+  
+}
+
+  @media screen and (max-width: 980px) {
+   
+}
+  @media screen and (max-width: 640px) {
+    .main-section{
+      width:100%;
+      max-width: 500px;
+      margin-top:40px;
+  
+    }
+    
+    .sidebar{
+      width:100%;
+      max-width: 500px;
+      margin:0 auto;
+      float: left;
+      margin-bottom: 40px;
+  
+    }
+    .auth-image{ 
+      width:400px;
+      
+    }
+    #masthead
+    {
+      width:500px;
+     margin :0 auto;
+    }
+    #logo{
+      width:500px;
+    }
+    nav {
+      float:left;
+      margin-top: 25px;
+    }
+    nav a {
+     
+      padding-right: 70px;
+    }
+  }  
+
